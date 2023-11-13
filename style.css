@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.square{
+    width: 10vw;
+    height: 10vw;
+}
+.damier{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    display: flex;
+    height: 50vw;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+.black{
+    background-color: black;
+  
+}
+.white{
+    background-color: white;
+}
+
+table, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
